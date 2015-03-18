@@ -1,0 +1,45 @@
+body{
+
+    background-color: #e0e0e0;
+}
+
+#titles{
+
+    color: Black;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#sidecolumn {
+
+    color: white;
+    background-color: #01579b;
+    text-align: center;
+    font-size: 30px;
+}
+
+#content{
+
+    color: black;
+    font-size: 20px;
+    text-align: center;
+
+}
+#filler{
+
+    height: 75px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#info{
+    font-align: center;
+    color: Black;
+    font-size: 20px;
+}
+
+#hand{}
