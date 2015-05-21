@@ -17,6 +17,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <script src="js/mainscript.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -84,8 +85,7 @@
 						<div class="container">
                                 <header>
                                     <h2 class="alt"><strong>Nathan Esantsi</strong></h2>
-                                    <p>Ligula scelerisque justo sem accumsan diam quis<br />
-                                    vitae natoque dictum sollicitudin elementum.</p>
+                                    <p>"Per aspera ad astra"</p>
                                 </header>
 						</div>
 					</section>
@@ -97,22 +97,20 @@
 							<header>
 								<h2>Projects</h2>
 							</header>
-							
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis 
-							fusce hendrerit lacus ridiculus.</p>
+
+                            <p>A collection of projects I've worked on in the past few years. Project topics vary
+                            from <br> prosthetics, to rocketry, to robotics.</p>
 						
 							<div class="row">
 								<div class="4u">
 									<article class="item">
-										<a href="Projects.html#hand" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="Projects.html#hand" class="image fit"><img src="images/RH.jpg" alt="" /></a>
 										<header>
 											<h3>Robotic Hand</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="Projects.html#flamethrower" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="Projects.html#flamethrower" class="image fit"><img src="images/FT.jpg" alt="" /></a>
 										<header>
 											<h3>Flamethrower</h3>
 										</header>
@@ -120,7 +118,7 @@
 								</div>
 								<div class="4u">
 									<article class="item">
-										<a href="Projects.html#art" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="Projects.html#art" class="image fit"><img src="images/AB.jpg" alt="" /></a>
 										<header>
 											<h3>Art Bot</h3>
 										</header>
@@ -134,13 +132,13 @@
 								</div>
 								<div class="4u">
 									<article class="item">
-										<a href="Projects.html#quadreped" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="Projects.html#quadreped" class="image fit"><img src="images/QR.jpg" alt="" /></a>
 										<header>
-											<h3>Quadreped Robot</h3>
+											<h3>Quadruped Robot</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="Projects.html#balancing" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="Projects.html#balancing" class="image fit"><img src="images/SBR.jpg" alt="" /></a>
 										<header>
 											<h3>Self Balancing Robot</h3>
 										</header>
@@ -161,12 +159,8 @@
 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 							
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus 
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae 
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem 
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper 
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec 
-							ornare iaculis.</p>
+							<p>I'm a graduating high school senior who is going to attend Purdue University in the fall of
+                            2015.</p>
 
 						</div>
 					</section>
@@ -176,22 +170,19 @@
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2>Contact Me</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra 
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia 
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc 
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<p></p>
 							
-							<form method="post" action="#">
+							<form method="post" action="#" onsubmit="alertFunction()">
 								<div class="row 50%">
-									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u"><input type="text" name="name" placeholder="Name"  required/></div>
+									<div class="6u"><input type="email" name="email" placeholder="Email" required/></div>
 								</div>
 								<div class="row 50%">
 									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Message" required></textarea>
 									</div>
 								</div>
 								<div class="row">
@@ -215,6 +206,12 @@
 					</ul>
 				
 			</div>
+
+        <script>
+            function alertFunction() {
+            alert("Your message was submitted.");
+            }
+        </script>
 
 	</body>
 </html>
